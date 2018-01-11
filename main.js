@@ -9,7 +9,7 @@ var input;
 
 // Function generating the random number between 20 and 80 + calling it once to generate it
 function randomNumber(){
-  number=Math.floor(Math.random()*(maximum-minimum)+20;
+  number=Math.floor(Math.random()*(maximum-minimum)+20);
   return(number);
 }
 randomNumber();
@@ -38,7 +38,7 @@ while(tries<10 && win===false){
   input=window.prompt(message);
   check(input);
 }
-// End of game message 
+// End of game message
 if(win===true){
   window.alert("You won with  "+tries+" mistakes !")
 }
